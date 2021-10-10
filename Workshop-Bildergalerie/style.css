@@ -1,0 +1,41 @@
+body {font-family: "Raleway", Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(211, 209, 200) ;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {margin-bottom: -8px;
+}
+#max{
+    max-width: 1500px;  
+}
+img{
+   width:80%;
+}
+form{
+   margin:auto;width:60%;
+}
+#foto{
+   width: 300px;
+   height: 300px;
+}
+/* Mobile Ansicht */
+@media (max-width: 768px) {
+  img {width: 300px;
+ }
+}
+@media (max-width: 768px){
+   body{
+      background-color: rgb(202, 202, 247);
+   } 
+}
+.Greece{
+    font-family: 'Akronim', cursive;
+   font-size: x-large;
+   height: 60px;
+   width: auto;
+   margin-top: 22px;
+  text-align: center;
+}
+
